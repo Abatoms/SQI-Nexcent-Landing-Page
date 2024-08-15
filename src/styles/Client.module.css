@@ -1,0 +1,33 @@
+.clientContainer {
+  padding: 20px 60px;
+  font-family: "Inter", sans-serif;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.heading h2 {
+  font-size: 3rem;
+  color: #4d4d4d;
+}
+
+.heading p {
+  color: #717171;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.logos {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  flex-wrap: wrap;
+}

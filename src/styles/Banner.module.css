@@ -1,0 +1,49 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7fa;
+  padding: 20px 60px;
+  height: 70vh;
+  font-family: "Inter", sans-serif;
+}
+
+.textContainer {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.textContent {
+  padding: 20px;
+}
+
+.textContent h1 {
+  font-size: 5.5rem;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.textContent span {
+  color: #4caf4f;
+}
+
+.textContent p {
+  color: #717171;
+  margin-top: 3%;
+  font-size: 1.5rem;
+}
+
+.btn {
+  margin-top: 3%;
+  max-width: 200px;
+  padding: 20px;
+}
+
+.imageContainer {
+  flex-basis: 30%;
+  padding: 20px;
+}
+
+.imageContainer img {
+  width: 100%;
+}

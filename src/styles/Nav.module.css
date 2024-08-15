@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7fa;
+  padding: 20px 60px;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  flex-basis: 10%;
+}
+
+.menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 40%;
+}
+.menu p {
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.menu p:hover {
+  color: #4caf4f;
+  font-weight: 600;
+}
+
+.btns {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  flex-basis: 40%;
+}
